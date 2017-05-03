@@ -40,6 +40,7 @@ public class ReadData {
 	public static void main(String[] args) throws Exception, Exception {
 		ReadData r= new ReadData();
 		r.readData();
+		System.out.println("test completed");
 	}
 
 }
