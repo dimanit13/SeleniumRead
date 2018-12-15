@@ -24,6 +24,7 @@ public class ReadData {
 			for (int j = 1; j < sh.getRows(); j++) {
 				System.out.println(sh.getCell(i, j).getContents());
 			}
+			test
 		}*/
 		
 		for (int i = 1; i < sh.getRows(); i++) {
