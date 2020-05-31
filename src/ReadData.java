@@ -20,6 +20,7 @@ public class ReadData {
 		File file=new File("E:/Selenium_Test/testdata/users.xls");
 		Workbook wb = Workbook.getWorkbook(file);
 		Sheet sh = wb.getSheet(0);
+		System.out.println("hi");
 		/*for (int i = 0; i < sh.getColumns(); i++) {
 			for (int j = 1; j < sh.getRows(); j++) {
 				System.out.println(sh.getCell(i, j).getContents());
